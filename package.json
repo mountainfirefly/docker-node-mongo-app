@@ -1,7 +1,7 @@
 {
-  "name": "docker-node-app",
+  "name": "docker-node-mongo-app",
   "version": "1.0.0",
-  "description": "It is a sample node application that is containerizated and deployed using.",
+  "description": "It is a sample node-mongo application that is containerizated and deployed using Docker Compose.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/mountainfirefly/docker-node-app#readme",
   "dependencies": {
-    "express": "4.17.1"
+    "express": "4.17.1",
+    "mongoose": "5.6.13"
   }
 }

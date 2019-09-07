@@ -6,7 +6,7 @@ WORKDIR /user/src/app
 # Copy package.json and package-lock.json in docker container
 COPY package*.json ./
 
-# Install all the depencies for the application
+# Install all the dependencies for the application
 RUN npm install
 
 COPY . .
