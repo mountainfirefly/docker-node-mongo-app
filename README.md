@@ -1,7 +1,7 @@
 # docker-node-mongo-app
 It is a sample node-mongo application that is build using Docker Compose.
 
-####Build and run this app with Docker Compose
+#### Build and run this app with Docker Compose
 From your project directory, start up your application by running `docker-compose up`.
 
 ```zsh
